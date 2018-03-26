@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2762852069727600FDECAC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2762842069727600FDECAC /* Player.swift */; };
 		3A5276A420689E08003E621C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5276A320689E08003E621C /* AppDelegate.swift */; };
 		3A5276A620689E08003E621C /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5276A520689E08003E621C /* WelcomeVC.swift */; };
 		3A5276A920689E08003E621C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5276A720689E08003E621C /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2762842069727600FDECAC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3A5276A020689E08003E621C /* app-swoosh-drmusic45.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh-drmusic45.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5276A320689E08003E621C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A5276A520689E08003E621C /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		3A5276B82068BFA9003E621C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3A2762842069727600FDECAC /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				3A5276A420689E08003E621C /* AppDelegate.swift in Sources */,
 				3A5276BB2068C046003E621C /* LeagueVC.swift in Sources */,
 				3A5276BD2068C067003E621C /* SkillVC.swift in Sources */,
+				3A2762852069727600FDECAC /* Player.swift in Sources */,
 				3A5276B72068A1F2003E621C /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
