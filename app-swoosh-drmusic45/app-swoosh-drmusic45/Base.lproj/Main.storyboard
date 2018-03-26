@@ -17,10 +17,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh_drmusic45" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh_drmusic45" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="BGy-c8-0d4">
             <objects>
-                <viewController id="OKc-WI-F6Z" sceneMemberID="viewController">
+                <viewController id="OKc-WI-F6Z" customClass="LeagueVC" customModule="app_swoosh_drmusic45" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ern-5g-mYl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +121,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextButtonTapped:" destination="OKc-WI-F6Z" eventType="touchUpInside" id="y3l-yo-kXO"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="lqd-xt-42P">
                                 <rect key="frame" x="112.5" y="40" width="150" height="86"/>
@@ -209,16 +212,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ekx-M6-vqS"/>
                     </view>
+                    <connections>
+                        <segue destination="oN2-hC-pfV" kind="show" identifier="skillVCSegue" id="xqU-ne-Ndn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ARb-nY-XLf" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="6m0-3e-psY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="884" y="132.68365817091455"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="ijk-ka-u7I">
             <objects>
-                <viewController id="oN2-hC-pfV" sceneMemberID="viewController">
+                <viewController id="oN2-hC-pfV" customClass="SkillVC" customModule="app_swoosh_drmusic45" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mzz-7X-jJL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
